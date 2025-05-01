@@ -6,6 +6,13 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
+- type: discord
+  icon: "fa-brands fa-discord"
+
+- type: buymeacoffee
+  icon: "fa-solid fa-heart fa-sm"
+  url: https://buymeacoffee.com/cherrpi
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
