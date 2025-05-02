@@ -20,9 +20,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   border-right: 1px solid var(--sidebar-border-color);
 
   /* stylelint-disable-next-line declaration-empty-line-before */
-  background: url('/assets/img/sidebar/back.png');
-  background-size: cover;
-  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
