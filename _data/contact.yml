@@ -6,13 +6,17 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-- type: discord
-  icon: "fa-brands fa-discord"
-  url:
+- type: patreon
+  icon: "fa-brands fa-patreon fa-sm"
+  url: https://www.patreon.com/jerr_pi
 
-- type: ko-fi
-  icon: "fa-solid fa-heart fa-sm"
-  url: https://ko-fi.com/cherrpi
+- type: youtube
+  icon: "fa-brands fa-youtube"
+  url: https://youtu.be/zaxZ_04bJV4?si=z1F94IyHQr6Zt5LE
+
+- type: download
+  icon: "fa-solid fa-download"
+  url: https://drive.proton.me/urls/QQF9QZE2PG#fMnHIUkavq4F
 
 - type: email
   icon: "fas fa-envelope"
