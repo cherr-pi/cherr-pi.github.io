@@ -8,10 +8,11 @@
 
 - type: discord
   icon: "fa-brands fa-discord"
+  url:
 
-- type: buymeacoffee
+- type: ko-fi
   icon: "fa-solid fa-heart fa-sm"
-  url: https://buymeacoffee.com/cherrpi
+  url: https://ko-fi.com/cherrpi
 
 - type: email
   icon: "fas fa-envelope"
