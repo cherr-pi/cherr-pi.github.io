@@ -8,3 +8,15 @@
 ';
 
 /* append your custom style below */
+
+/* background */
+body {
+  background: url('{{ site.baseurl }}/assets/img/sidebar/back.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* search */
+#search {
+  background-color: transparent;
+}
