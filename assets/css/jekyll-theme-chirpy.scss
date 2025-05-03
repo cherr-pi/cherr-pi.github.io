@@ -2,21 +2,9 @@
 ---
 
 @use 'main
-{%- if jekyll.environment == ' production ' -%}
+{%- if jekyll.environment == ' production '-%}
   .bundle
 {%- endif -%}
 ';
 
 /* append your custom style below */
-
-/* background */
-body {
-  background: url('{{ site.baseurl }}/assets/img/sidebar/back.png');
-  background-size: cover;
-  background-position: center;
-}
-
-/* search */
-#search {
-  background-color: transparent;
-}
