@@ -6,22 +6,22 @@ document.addEventListener('DOMContentLoaded', function () {
   paragraphs.forEach((p) => {
     let html = p.innerHTML;
 
-    // match “double quotes” (or regular ")
+    // double-quoted dialogue: "text"
     html = html.replace(
       /(["“”])([^"“”]+?)\1/g,
       '<span class="double-quoted">“$2”</span>'
     );
 
-    // match ‘single quotes’ (or regular ')
+    // single-quoted dialogue (NOT contractions)
     html = html.replace(
-      /(['‘’])([^'‘’]+?)\1/g,
+      /(?<=\s|^)(['‘’])([^'‘’]+?)\1(?=\s|[.,!?;:]|$)/g,
       "<span class='single-quoted'>‘$2’</span>"
     );
 
-    // bold text: **text**
+    // bold
     html = html.replace(/\*\*([^*]+?)\*\*/g, "<span class='bold'>$1</span>");
 
-    // italic text: *text*
+    // italic
     html = html.replace(
       /(^|[^*])\*([^*]+?)\*(?!\*)/g,
       "$1<span class='italic'>$2</span>"

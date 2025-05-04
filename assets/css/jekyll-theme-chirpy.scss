@@ -39,8 +39,9 @@ body.page-loaded {
   border: 1px solid rgba(137, 116, 103, 0.5);
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
+  padding: 1.3rem;
   max-width: 1000px;
+  height: 450px;
   margin: 1rem auto;
 }
 
@@ -48,6 +49,7 @@ body.page-loaded {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  height: 100%;
 }
 
 @media (min-width: 640px) {
@@ -85,32 +87,16 @@ body.page-loaded {
 
 .character-text {
   flex: 1;
-  max-height: 400px;
+  height: 100%;
   overflow-y: auto;
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.6;
+  padding: 0.5rem 0.8rem 0.5rem 0.2rem;
+}
+
+.character-text p {
   white-space: pre-line;
-  padding-right: 0.3rem;
-}
-
-/* dialogue */
-
-.double-quoted {
-  color: #ebe5d5;
-}
-
-.single-quoted {
-  color: #ebe5d5;
-}
-
-.bold {
-  font-weight: bold;
-  color: #93d0d9;
-}
-
-.italic {
-  font-style: italic;
-  color: #debd87;
+  margin-bottom: 0;
 }
 
 /* log: Optional scrollbar styling */
@@ -124,34 +110,22 @@ body.page-loaded {
   border-radius: 3px;
 }
 
-/* log: mobile */
+/* dialogue */
 
-@media (max-width: 600px) {
-  .character-box {
-    flex-direction: column; /* 세로 배치 */
-    gap: 0.75rem; /* 간격 살짝 줄이기 */
-  }
+.double-quoted {
+  color: #ebe5d5;
+}
 
-  .character-name {
-    display: none;
-  }
+.single-quoted {
+  color: #5b8cab;
+}
 
-  .character-image {
-    flex: 0 0 auto;
-    width: 100%;
-    height: auto;
-  }
+.bold {
+  font-weight: bold;
+  color: #93d0d9;
+}
 
-  .character-image img {
-    width: 500px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin: 0 auto;
-    object-position: 50% 25%;
-  }
-
-  .character-text {
-    max-height: 500px;
-  }
+.italic {
+  font-style: italic;
+  color: #debd87;
 }
