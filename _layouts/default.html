@@ -82,10 +82,18 @@ layout: compress
 
     {% include_cached search-loader.html lang=lang %}
 
+    <!-- page loaded -->
     <script>
       document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('page-loaded');
       });
+    </script>
+
+    <!-- post background dark -->
+    <script>
+      if (window.location.pathname.startsWith('/posts/')) {
+        document.body.classList.add('bg-dimmed');
+      }
     </script>
   </body>
 </html>
