@@ -6,42 +6,26 @@ document.addEventListener('DOMContentLoaded', function () {
   containers.forEach((container) => {
     let html = container.innerHTML;
 
-    // double-quoted dialogue: "text"
+    // "큰따옴표"
     html = html.replace(
       /(["“”])([^"“”]+?)\1/g,
       '<span class="double-quoted">“$2”</span>'
     );
 
-    // single-quoted dialogue (NOT contractions)
+    // '작은따옴표'
     html = html.replace(
       /(?<=\s|^)(['‘’])([^'‘’]+?)\1(?=\s|[.,!?;:]|$)/g,
       "<span class='single-quoted'>‘$2’</span>"
     );
 
-    // bold
-    html = html.replace(/\*\*([^*]+?)\*\*/g, "<span class='bold'>$1</span>");
-
-    // italic
+    // <strong> → .bold
     html = html.replace(
-      /(^|[^*])\*([^*]+?)\*(?!\*)/g,
-      "$1<span class='italic'>$2</span>"
+      /<strong>(.*?)<\/strong>/g,
+      "<span class='bold'>$1</span>"
     );
 
-    container.innerHTML = html;
-  });
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-  const containers = document.querySelectorAll('.character-text');
-
-  containers.forEach((container) => {
-    let html = container.innerHTML;
-
-    html = html.replace(/\n{2,}/g, '</p><p>');
-
-    html = html.replace(/([^\n])\n(?=[^\n])/g, '$1<br>');
-
-    html = `<p>${html}</p>`;
+    // <em> → .italic
+    html = html.replace(/<em>(.*?)<\/em>/g, "<span class='italic'>$1</span>");
 
     container.innerHTML = html;
   });

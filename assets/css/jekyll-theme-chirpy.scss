@@ -107,20 +107,20 @@ body.page-loaded {
 
 /* dialogue */
 
-.double-quoted {
+.character-text .double-quoted {
   color: #ebe5d5;
 }
 
-.single-quoted {
+.character-text .single-quoted {
   color: #5b8cab;
 }
 
-.bold {
+.character-text .bold {
   font-weight: bold;
   color: #93d0d9;
 }
 
-.italic {
+.character-text .italic {
   font-style: italic;
   color: #debd87;
 }
