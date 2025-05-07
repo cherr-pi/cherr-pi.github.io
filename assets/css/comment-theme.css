@@ -4,7 +4,6 @@ html {
   --font-family-default: var(--font-family-serif);
 }
 
-:root,
 main {
   --color-prettylights-syntax-comment: #928374; /* bg4 */
   --color-prettylights-syntax-constant: #83a598; /* blue */
