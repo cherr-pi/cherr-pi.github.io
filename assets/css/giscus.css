@@ -1,8 +1,7 @@
 /* prettier-ignore */
 :host, html {
-  --font-family-serif: ui-serif, 'Georgia', 'Cambria', 'Times New Roman',
-    'Times', serif;
-  --font-family-default: 'Noto Sans KR', serif;
+  --font-family-serif: ui-serif, "Noto Serif KR", serif;
+  --font-family-default: var(--font-family-serif);
 }
 
 main {
@@ -132,4 +131,11 @@ main {
 
 .gsc-comment-box-buttons .btn-primary:disabled {
   color: var(--text-muted-color);
+}
+
+.gsc-comments,
+.gsc-comment-content,
+.gsc-comment-box,
+.gsc-reply-content {
+  font-family: var(--font-family-default) !important;
 }
