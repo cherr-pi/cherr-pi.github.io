@@ -55,7 +55,7 @@ main {
   --color-btn-primary-selected-bg: rgba(28, 28, 27, 0.8); /* green */
   --color-btn-primary-selected-shadow: 0 0 transparent;
   --color-btn-primary-disabled-text: rgb(251 241 199 / 50%); /* fg0 */
-  --color-btn-primary-disabled-bg: rgb(184 187 38 / 60%); /* green */
+  --color-btn-primary-disabled-bg: transparent; /* green */
   --color-btn-primary-disabled-border: rgb(251 241 199 / 10%); /* fg0 */
   --color-action-list-item-default-hover-bg: rgb(213 196 161 / 12%); /* fg2 */
   --color-segmented-control-bg: rgb(146 131 116 / 10%); /* bg4 */
@@ -97,4 +97,8 @@ main .pagination-loader-container {
 
 main .gsc-loading-image {
   background-image: url('https://github.githubassets.com/images/mona-loading-dark.gif');
+}
+
+.gsc-comment-avatar {
+  display: none !important;
 }
