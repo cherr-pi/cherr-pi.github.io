@@ -64,10 +64,10 @@ main {
   --color-fg-default: #ebdbb2; /* fg1 */
   --color-fg-muted: #bdae93; /* fg3 */
   --color-fg-subtle: #a89984; /* fg4 */
-  --color-canvas-default: #282828; /* bg0 */
+  --color-canvas-default: transparent; /* bg0 */
   --color-canvas-overlay: #3c3836; /* bg1 */
-  --color-canvas-inset: #1d2021; /* bg0_h */
-  --color-canvas-subtle: #3c3836; /* bg1 */
+  --color-canvas-inset: rgba(28, 28, 27, 0.8); /* bg0_h */
+  --color-canvas-subtle: transparent; /* bg1 */
   --color-border-default: #3c3836; /* bg1 */
   --color-border-muted: #282828; /* bg0 */
   --color-neutral-muted: rgb(146 131 116 / 20%); /* bg4 */
