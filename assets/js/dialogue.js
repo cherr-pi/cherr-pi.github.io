@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // double-quoted dialogue: "text"
     html = html.replace(
-      /(["“”])([^"“”]+?)\1/g,
+      /(?:(“|"))([^"“”]+?)(”|")/g,
       '<span class="double-quoted">“$2”</span>'
     );
 
