@@ -84,12 +84,3 @@
     {% endcase %}
   {% endif %}
 {% endif %}
-
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.addEventListener('controllerchange', () => {
-      console.log('[PWA] 새 버전 감지됨 → 자동 새로고침!');
-      window.location.reload();
-    });
-  }
-</script>
