@@ -21,16 +21,6 @@ It's still in beta, so things might be a little rough here and there. If you run
 > You can find it now on Proton Drive.<br>
 > Just use the button in the page sidebar, or [click here](https://drive.proton.me/urls/QQF9QZE2PG#fMnHIUkavq4F) to check it out.
 
-
-<br>
-내면 프롬프트에 미니 버전(beta)이 추가되었습니다!
-
-기존 프롬프트에서 절반가량의 토큰이 빠진 경량 버전입니다.
-
-토큰이 줄어든 만큼 기존 GPT에서 느껴지는 특유의 저점 보완이 어렵지만 모델의 고점에 의존하게 되어서 기존보다 조금 더 자유로운 표현과 글쓰기가 출력되고 무엇보다 지갑을 조금 더 지켜줄 수 있습니다.
-
-아직 충분하게 다듬어지지 않은 베타 버전이라 추후에 개선이 이루어지면 정식으로 추가할 예정이기 때문에 아쉬운 부분이 있으시면 언제든지 알려주세요 😊 그리고 여전히 훨씬 기존 프롬프트가 좋습니다!
-
 <br>
 ## And here's what it looks like in action
 ### Original
@@ -68,7 +58,7 @@ It's still in beta, so things might be a little rough here and there. If you run
 
 <p>Vadim fell into step beside him, silent. The thump-thump of distant shelling rolled across the horizon, too far to matter.</p>
 
-<p>“Command asked again,” Vadim said after a long pause, flicking ash. “They want photographic confirmation for the Kandahar delivery. Put your face in it.”</p>
+<p>"Command asked again," Vadim said after a long pause, flicking ash. "They want photographic confirmation for the Kandahar delivery. Put your face in it."</p>
 
 <p>Dmitry let a low chuckle escape his throat. “No. Let the Taliban think it’s one of theirs running the route. Sergei knows I was here. That’s all that matters.”</p>
 
