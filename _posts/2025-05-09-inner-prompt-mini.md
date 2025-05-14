@@ -1,7 +1,7 @@
 ---
-title: Shrunk It Down_ Meet Inner Prompt Mini
+title: Inner Prompt Mini
 author: jerr
-date: 2025-05-09 00:34:00 +0800
+date: 2025-05-09 00:34:00 +0900
 categories: [Prompt]
 tags: [Inner Mini]
 description: Because sometimes less is enough
