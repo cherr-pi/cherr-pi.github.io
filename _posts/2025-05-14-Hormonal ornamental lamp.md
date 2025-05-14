@@ -13,9 +13,9 @@ description: Emotionally. Biologically. Mentally. Spiritually. No one knows wher
 ## On the Entity That Cannot Die
 Do people know the Varnoux? Often labeled as vampires in old folklore, they have existed since ancient times. No one knows where they came from. They are not cursed, not supernatural. Just a different kind of higher lifeform that took another evolutionary route, separate from humans.
 
-Liam is one of them. Twenty-six this year. In a population (Varnoux) that typically lives around three hundred and fifty years, that makes him young. But Liam belongs to the Kolverin, a bloodline known to live even longer, often reaching five hundred years. Among them, twenty-six is barely more than childhood. His bloodline is one of the oldest among the Varnoux. Practically ancestral.
+Liam is one of them. Twenty-six this year. In a population (Varnoux) that typically lives around three hundred and fifty years, that makes him young. But Liam belongs to the Colverin, a bloodline known to live even longer, often reaching five hundred years. Among them, twenty-six is barely more than childhood. His bloodline is one of the oldest among the Varnoux. Practically ancestral.
 
-As for the Kolverin, some say they are immortal. That isn't wrong. But most of them die by five hundred. Not from age. They kill themselves. Longevity becomes unbearable. Immortality stretches out, and eventually, it breaks them. Most choose to end it on their own. Liam's parents did the same.
+As for the Colverin, some say they are immortal. That isn't wrong. But most of them die by five hundred. Not from age. They kill themselves. Longevity becomes unbearable. Immortality stretches out, and eventually, it breaks them. Most choose to end it on their own. Liam's parents did the same.
 
 So. This is Liam's story.
 <br><br>
