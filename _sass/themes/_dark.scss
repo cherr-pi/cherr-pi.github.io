@@ -73,14 +73,16 @@
   --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
   --prompt-text-color: rgb(216, 212, 212, 0.75);
-  --prompt-tip-bg: rgb(22, 60, 36, 0.64);
-  --prompt-tip-icon-color: rgb(15, 164, 15, 0.81);
-  --prompt-info-bg: rgb(7, 59, 104, 0.8);
-  --prompt-info-icon-color: #0075d1;
-  --prompt-warning-bg: rgb(90, 69, 3, 0.88);
-  --prompt-warning-icon-color: rgb(255, 165, 0, 0.8);
-  --prompt-danger-bg: rgb(86, 28, 8, 0.8);
-  --prompt-danger-icon-color: #cd0202;
+  --prompt-tip-bg: rgba(30, 65, 43, 0.64);
+  --prompt-tip-icon-color: rgba(23, 139, 23, 0.81);
+  --prompt-info-bg: rgba(44, 71, 95, 0.8);
+  --prompt-info-icon-color: #2579b9;
+  --prompt-warning-bg: rgba(90, 74, 25, 0.88);
+  --prompt-warning-icon-color: rgba(223, 162, 49, 0.8);
+  --prompt-danger-bg: rgba(71, 38, 27, 0.8);
+  --prompt-danger-icon-color: #bb2929;
+  --prompt-pr-bg: rgba(46, 39, 33, 0.8);
+  --prompt-pr-icon-color: rgba(187, 161, 138, 0.8);
 
   /* Tags */
   --tag-border: rgb(59, 79, 88);
@@ -99,15 +101,15 @@
   --timeline-year-dot-color: var(--timeline-color);
 
   /* Code highlight colors */
-  --language-border-color: #2d2d2d;
-  --highlight-bg-color: #151515;
+  --language-border-color: rgba(77, 67, 58, 0.8);
+  --highlight-bg-color: rgba(15, 15, 15, 0.85);
   --highlighter-rouge-color: #c9def1;
   --highlight-lineno-color: #808080;
   --inline-code-bg: rgba(255, 255, 255, 0.05);
   --code-color: #b0b0b0;
   --code-header-text-color: #6a6a6a;
-  --code-header-muted-color: #353535;
-  --code-header-icon-color: #565656;
+  --code-header-muted-color: rgba(77, 67, 58, 0.5);
+  --code-header-icon-color: rgba(77, 67, 58, 0.8);
   --clipboard-checked-color: #2bcc2b;
   --filepath-text-color: #cacaca;
 
@@ -171,7 +173,6 @@
   .highlight,
   .highlight .w {
     color: #d0d0d0;
-    background-color: #151515;
   }
 
   .highlight .err {

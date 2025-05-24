@@ -2,7 +2,7 @@
 ---
 
 @use 'main
-{%- if jekyll.environment == 'production'-%}
+{%- if jekyll.environment == ' production '-%}
   .bundle
 {%- endif -%}
 ';
@@ -24,7 +24,7 @@ body.page-loaded {
 
 /* post */
 .bg-dimmed::before {
-  content: "";
+  content: '';
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.3);
@@ -98,7 +98,6 @@ body.page-loaded {
   padding: 0.5rem 0.8rem 0.5rem 0.2rem;
 }
 
-
 /* mobile */
 
 @media (max-width: 639px) {
@@ -160,3 +159,16 @@ h1[data-toc-skip] {
 .post-desc {
   display: none;
 } /* description hide */
+
+/* code font */
+pre,
+code,
+.highlight pre,
+.highlight code {
+  font-family: var(--font-family-serif);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: normal;
+}
