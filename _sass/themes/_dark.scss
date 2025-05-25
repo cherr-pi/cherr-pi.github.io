@@ -14,10 +14,10 @@
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
-  --link-color: rgb(138, 180, 248);
-  --link-underline-color: rgb(82, 108, 150);
+  --link-color: rgb(196, 174, 133);
+  --link-underline-color: rgb(150, 118, 82);
   --button-bg: #1e1e1e;
-  --btn-border-color: #2e2f31;
+  --btn-border-color: #353230;
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
   --card-header-bg: #292929;
@@ -85,19 +85,19 @@
   --prompt-pr-icon-color: rgba(187, 161, 138, 0.8);
 
   /* Tags */
-  --tag-border: rgb(59, 79, 88);
-  --tag-shadow: rgb(32, 33, 33);
-  --dash-color: rgb(63, 65, 68);
+  --tag-border: rgb(90, 75, 60);
+  --tag-shadow: rgb(33, 33, 32);
+  --dash-color: rgb(68, 65, 63);
   --search-tag-bg: #292828;
 
   /* Categories */
-  --categories-border: rgb(64, 66, 69, 0.5);
-  --categories-hover-bg: rgb(73, 75, 76);
+  --categories-border: rgba(69, 66, 64, 0.5);
+  --categories-hover-bg: rgb(76, 75, 73);
   --categories-icon-hover-color: white;
 
   /* Archive */
-  --timeline-node-bg: rgb(150, 152, 156);
-  --timeline-color: rgb(63, 65, 68);
+  --timeline-node-bg: rgb(158, 139, 118);
+  --timeline-color: rgb(75, 66, 59);
   --timeline-year-dot-color: var(--timeline-color);
 
   /* Code highlight colors */
@@ -125,7 +125,7 @@
 
   .categories {
     .card-header {
-      background-color: var(--card-header-bg);
+      background-color: initial;
     }
 
     .list-group-item {
@@ -143,12 +143,13 @@
   #archives li:nth-child(odd) {
     background-image: linear-gradient(
       to left,
-      rgb(26, 26, 30),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(26, 26, 30)
+      rgba(26, 23, 21, 0.7),
+      rgba(27, 25, 24, 0.7),
+      rgba(31, 28, 25, 0.7),
+      rgba(45, 42, 39, 0.7),
+      rgba(32, 29, 26, 0.7)
     );
+    background-color: initial;
   }
 
   /* stylelint-disable-next-line selector-id-pattern */
