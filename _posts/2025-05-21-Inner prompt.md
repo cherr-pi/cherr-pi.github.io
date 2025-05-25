@@ -7,18 +7,6 @@ tags: [Inner]
 description: None
 pin: true
 ---
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll('pre code.language-text').forEach((block) => {
-    let html = block.innerHTML;
-
-    // 'if'라는 단어만 span으로 감싸기 (정확한 구문만 감싸도록 보완 가능)
-    html = html.replace(/\bif\b/g, '<span class="if-highlight">if</span>');
-
-    block.innerHTML = html;
-  });
-});
-</script>
 
 ## Overview
 프롬프트 페이지 테스트중입니다. 이 포스트에서는 여러 텍스트의 색상과 마크다운을 표시합니다. &#123;% raw %&#125; 와 같은 이스케이프부터, >를 통해 tip 프롬프트를 사용하는 테스트도 함께 진행합니다. `인라인 코드` 출력도 테스트하며, tip 프롬프트의 여러 타입도 제작하여 테스트합니다.

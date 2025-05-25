@@ -161,6 +161,7 @@ div[class^='language-'] {
 div {
   &.nolineno,
   &.language-plaintext,
+  &.language-liquid,
   &.language-console,
   &.language-terminal {
     td:first-child {
@@ -207,7 +208,7 @@ div {
     /* label text */
     &::after {
       content: attr(data-label-text);
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       font-weight: 600;
       color: var(--code-header-text-color);
     }

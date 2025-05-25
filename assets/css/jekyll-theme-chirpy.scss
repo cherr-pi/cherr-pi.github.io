@@ -172,3 +172,12 @@ pre {
   white-space: pre-wrap;
   word-break: normal;
 }
+
+@media screen and (max-width: 768px) {
+  .topbar,
+  .post-title,
+  .post-content h2,
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif KR', serif !important;
+  }
+}
