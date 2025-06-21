@@ -4,7 +4,7 @@ author: jerr
 date: 2025-06-18 11:30:00 +0900
 categories: [Prompt]
 tags: [Inner]
-description: None
+description: Inner Prompt is a prompt of a dry yet deeply moving style, designed to highlight the inner self by placing free indirect discourse at its very core.
 pin: true
 ---
 <div style="text-align: center; font-size: 24px; color:rgb(172, 160, 146);">
@@ -30,7 +30,7 @@ Jeffrey Eugenides / ErraticErrata / Neal Stephenson / Agatha Christie / Alexandr
 ```
 {% endraw %}
 <br>
-> 작성중
+> ㅡ
 {: .prompt-pr }
 
 
