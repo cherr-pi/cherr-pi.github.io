@@ -1,17 +1,27 @@
 ---
-title: LOG; The Edwardian era
+title: Upon This Pale Hill, The Sun Never Quickens
 author: jerr
 date: 2025-07-26 11:12:00 +0900
 categories: [Log]
 tags: [Cadogan]
-description: Emotionally. Biologically. Mentally. Spiritually. No one knows where they came from. Just a different kind of higher lifeform that took another evolutionary route, separate from humans.
+description: Entirely at ease while coiled with disgust beneath the ribs, the noble predator forced to endure gilded indignities. And doing so magnificently.
 ---
 <script src="{{ '/assets/js/dialogue.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/postcss.js' | relative_url }}"></script>
 
 
-## On the
-Do 
+## Upon This Pale Hill, The Sun Never Quickens
+The parasol was leaning with indolent defiance against the back of the drawing room’s settee, its ivory handle hooked carelessly into the embroidered brocade as though slouched in disdain for its own elegance. A caprice of pastel roses danced across the stitched canopy, small violas clinging to the folds. It was the sort of accessory conjured for someone who presumed herself a romantic heroine in some stifling baronial fantasy. Of course, it hadn’t been there this morning. Which meant she must have gone walking again. Through Berkeley Square, perhaps. Or down toward Green Park. And with no footman following her, no duenna—it had become a pattern, hadn’t it?
+
+He dropped into the nearby armchair, letting the parasol rest across one thigh like a lazy saber, absurd and mock-elegant. Behind him, the muffled tick of the Louis Quinze clock droned on above the mantel. Goddard would be back from White’s by evening. Helena had retired upstairs with a headache after luncheon, muttering something about damp roses and letters from Ophelia’s mother. There would be no interruptions. Just himself. The parasol. And silence enough to recall each loathsome syllable of Baron Cavendish's latest dinner tirade.
+
+“You must remember, dear boy,” the baron had said, meat-slick and pompous, “the key to public trust is visibility. Let the people see the marriage as real.” That damned toast he offered to *union and healing* with a raised glass and eyes gleaming like a lizard under gaslight. As though Cadogan were swallowing his whole damned birthright down a gullet filled with coins.
+
+He rested his head back and laughed softly under his breath. It was a low, singular sound, roughened round the edges. One hand clutched at the ferrule and turned the parasol end over end between idle fingers. Healing. Christ. If this alliance was what healing looked like, then he'd do better to remain a lifelong invalid.
+
+Outside, wheels clattered over the cobblestones of Osborne Street. A coal cart. Then a florist’s carriage creaking slowly past. Then silence again.
+
+He shifted forward, dislodging the parasol across his lap. One final glance at the blooms. Roses and violas. Rosalia and vulgarity stitched in silk.
 <br><br>
 
 ### Original
@@ -71,16 +81,6 @@ Do
     </div>
   </div>
 </div>
-### Translation
-<div class="post-content">
-<p>
-</div>
-> -
-{: .prompt-tip }
-
-<br>
-
-## Personal picks
 
 <br><br><br>
 <div style="text-align: right;"><em>Inner Prompt 0726</em></div>
